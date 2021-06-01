@@ -6,14 +6,14 @@
   "scripts": {
     "dev": "webpack serve",
     "prod": "webpack --mode production",
-    "dev-server": "export NODE_ENV=development && webpack-cli serve --mode development"
+    "dev-server": "webpack-cli serve --mode development"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.13.1",
-    "cross-env": "^7.0.3",
+    "dotenv-webpack": "^7.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "regenerator-runtime": "^0.13.7"

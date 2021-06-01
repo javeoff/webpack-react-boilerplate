@@ -4,8 +4,11 @@
     "target": "es5",
     "sourceMap": true,
     "module": "esnext",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
+      "@main/*": [
+        "src/*"
+      ],
       "@common/*": [
         "src/common/*"
       ],
