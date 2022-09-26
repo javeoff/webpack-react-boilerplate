@@ -22,9 +22,6 @@ module.exports = {
       template: './src/index.html',
     }),
     new ForkTsCheckerWebpackPlugin({
-      eslint: {
-        files: './**/*.{ts,tsx,js,jsx}',
-      },
       typescript: {
         mode: 'write-references',
       },
